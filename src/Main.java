@@ -34,7 +34,7 @@ public class Main {
 //            Rectangle r = new Rectangle(length, height);
 //            System.out.println(r.calculateAria());
 //        }
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);;
         System.out.println("Enter height");
         while(!in.hasNextInt()) {
             System.out.println("please enter an integer");
